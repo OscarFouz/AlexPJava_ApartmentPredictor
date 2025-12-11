@@ -374,7 +374,7 @@ public class ApartmentPredictorApplication implements CommandLineRunner {
         for (Apartment apartment : apartmentRepository.findAll()){
             index++;
             System.out.println("#" + index);
-            System.out.println(apartment);
+             System.out.println(apartment);
         }
 
         //apartmentRepository.findAll().forEach(System.out::println);
@@ -386,9 +386,15 @@ public class ApartmentPredictorApplication implements CommandLineRunner {
 
 ### Tests JUnit
 
-todo
+- [Java SE: JUnit and TDD – albertprofe wiki](https://albertprofe.dev/javase/se-concepts-tdd.html)
+
+## Annotations
+
+- [SpringBoot Annotations](https://github.com/AlbertProfe/ApartmentPredictor/blob/master/docs/appends/SpringBoot-Annotations.md)
 
 ## JPA
+
+### Summary
 
 - [Getting Started :: Spring Data JPA](https://docs.spring.io/spring-data/jpa/reference/jpa/getting-started.html)
 
@@ -401,6 +407,10 @@ Spring Data’s mission is to provide a familiar and consistent, **Spring-based
 > It makes it easy to use **data access** technologies, `relational` and `non-relational` databases, `map-reduce frameworks`, and `cloud-based` data services.
 
 This is an **umbrella project which contains many subprojects** that are specific to a given database. The projects are developed by working together with many of the companies and developers that are behind these exciting technologies.
+
+### Relationships
+
+- [JPA Relationships Guide](https://github.com/AlbertProfe/ApartmentPredictor/blob/master/docs/appends/JPA_Relationships_Guide.md)
 
 ## H2 & application.properties
 
