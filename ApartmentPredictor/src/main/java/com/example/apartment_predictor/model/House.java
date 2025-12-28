@@ -7,6 +7,7 @@ public class House extends Apartment {
     private int garageQty;
     private String roofType;
     private String garden;
+    private boolean hasGarage;
 
     public House() {
         this.id = UUID.randomUUID().toString();
@@ -17,15 +18,6 @@ public class House extends Apartment {
         this.garageQty = garageQty;
         this.roofType = roofType;
         this.garden = garden;
-    }
-
-    @Override
-    public double calculatePrice() {
-        double basePrice = area * 120 + (bedrooms * 8000);
-        if (garageQty > 0) {
-            basePrice += 25000;
-        }
-        return basePrice * (1 + (area * 0.04));
     }
 
     public int getGarageQty() {
@@ -60,5 +52,14 @@ public class House extends Apartment {
                 ", roofType='" + roofType + '\'' +
                 ", garden='" + garden + '\'' +
                 '}';
+    }
+
+    @Override
+    public double calculatePrice() {
+        double basePrice = area * 180 + (numberOfRooms * 15000);
+        if (hasGarage) {
+            basePrice += 25000;
+        }
+        return basePrice * (1 + (locationRating * 0.06));
     }
 }
