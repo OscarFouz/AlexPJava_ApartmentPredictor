@@ -50,6 +50,7 @@ public class ApartmentPredictorApplication implements CommandLineRunner {
                 "furnished"   // furnishingstatus
         );
 
+
         // Create additional sample apartments
         Apartment apartment2 = new Apartment(
                 8500000L,     // price

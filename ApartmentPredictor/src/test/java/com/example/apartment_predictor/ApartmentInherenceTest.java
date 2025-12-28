@@ -19,7 +19,7 @@ public class ApartmentInherenceTest {
         Apartment apartment = new Apartment();
         //apartment.setId("APT-001-K");
         apartment.setBathrooms(2);
-        apartment.setBedrooms(3);
+        apartment.setNumberOfRooms(3);
         apartment.setArea(100);
         apartment.setStories(2);
         apartment.setBasement("Yes");
@@ -50,7 +50,7 @@ public class ApartmentInherenceTest {
         duplex.setElevator(true);
 
         duplex.setBathrooms(2);
-        duplex.setBedrooms(3);
+        duplex.setNumberOfRooms(3);
         duplex.setArea(100);
         duplex.setStories(2);
         duplex.setBasement("Yes");
@@ -74,7 +74,7 @@ public class ApartmentInherenceTest {
         Apartment apartment = new Apartment();
         //apartment.setId("APT-001-K");
         apartment.setBathrooms(2);
-        apartment.setBedrooms(3);
+        apartment.setNumberOfRooms(3);
         apartment.setArea(100);
         apartment.setStories(2);
         apartment.setBasement("Yes");
@@ -105,7 +105,7 @@ public class ApartmentInherenceTest {
         ((Duplex) duplex).setElevator(true);
 
         duplex.setBathrooms(2);
-        duplex.setBedrooms(3);
+        duplex.setNumberOfRooms(3);
         duplex.setArea(100);
         duplex.setStories(2);
         duplex.setBasement("Yes");
@@ -131,7 +131,7 @@ public class ApartmentInherenceTest {
         Apartment apartment = new Apartment();
         //apartment.setId("APT-001-K");
         apartment.setBathrooms(2);
-        apartment.setBedrooms(3);
+        apartment.setNumberOfRooms(3);
         apartment.setArea(100);
         apartment.setStories(2);
         apartment.setBasement("Yes");
@@ -151,7 +151,7 @@ public class ApartmentInherenceTest {
         house.setGarden("Yes");
         house.setGarageQty(2);
         house.setRoofType("Tile");
-        house.setBedrooms(3);
+        house.setNumberOfRooms(3);
         house.setBathrooms(2);
         house.setArea(100);
 
@@ -168,7 +168,7 @@ public class ApartmentInherenceTest {
         duplex.setElevator(true);
 
         duplex.setBathrooms(2);
-        duplex.setBedrooms(3);
+        duplex.setNumberOfRooms(3);
         duplex.setArea(100);
         duplex.setStories(2);
         duplex.setBasement("Yes");
